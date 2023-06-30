@@ -1,5 +1,5 @@
-const appId = "aca21af1";
-const appKey = "383d99fcb13571ebc066092e5d973e2e";
+const appId = {MY_API_ID};
+const appKey = {MY_API_KEY};
 const baseUrl = `https://api.edamam.com/api/recipes/v2?type=public&app_id=${appId}&app_key=${appKey}`;
 let boxContainer;
 const txtSearch = document.querySelector("#txtSearch");
